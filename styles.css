@@ -9,15 +9,37 @@ html{
 }
 
 .box{
-  width: 400px;
-  height: 400px;
-  background: rgba(0,0,0, 0.5);
+  width: 600px;
+  height: 500px;
+  background: rgba(0,0,0, 0.4);
+  font-family: 'Work Sans', sans-serif;
 
   padding: 40px;
   color: white;
   margin: 0 auto;
   margin-top: 140px;
   text-align: center;
+
+}
+
+.box h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.box h3{
+
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.icons{
+  font-size: 40px;
+}
+
+.icons a{
+  color: white;
+  text-decoration: none;
 }
 
 .mypicture{
@@ -28,19 +50,16 @@ html{
 
 body{
   margin: 0;
-  background-color: #000000
-  font-weight: 300;
-  font-family: 'Work Sans', sans-serif;
 }
 
-.Name{
-  margin: 0;
-  display: inline-block;
-}
 
 .container{
   width: 90%;
   margin: 0 auto;
+}
+
+.Name{
+  font-family: 'Work Sans', sans-serif;
 }
 
 header{
@@ -60,6 +79,8 @@ nav{
 }
 
 nav ul{
+  font-weight: 300;
+  font-family: 'Work Sans', sans-serif;
   margin: 0;
   padding: 0;
   list-style: none;
