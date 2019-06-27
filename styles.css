@@ -11,7 +11,7 @@ html{
 .box{
   width: 600px;
   height: 500px;
-  background: rgba(0,0,0, 0.4);
+  background: rgba(0,0,0, 0.5);
   font-family: 'Work Sans', sans-serif;
 
   padding: 40px;
@@ -20,6 +20,38 @@ html{
   margin-top: 140px;
   text-align: center;
 
+}
+
+.about-box{
+  width: 1000px;
+  height: 650px;
+  background: rgba(0,0,0, 0.5);
+  font-family: 'Work Sans', sans-serif;
+
+  padding: 30px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+
+}
+
+.about-text{
+  font-size: 24px;
+  line-height: 2.0;
+  text-align: center;
+}
+
+.title{
+  width: 1060px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 145 px;
+  background: rgba(0,0,0, 0.5);
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
 }
 
 .box h1{
