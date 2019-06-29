@@ -8,6 +8,37 @@ html{
   background-size: cover;
 }
 
+.exp-title{
+  width: 500px;
+  height: 100px;
+  background: rgba(0,0,0, 0.5);
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 110px;
+  margin-left: 50px;
+}
+
+.exp-title h2{
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 35px;
+}
+
+.exp-content{
+  width: 1000px;
+  height: 500px;
+  background: rgba(0,0,0, 0.5);
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 70px;
+}
+.exp-text{
+  font-size: 28px;
+  line-height: 2.5;
+  color: white;
+
+}
+
 .box{
   width: 600px;
   height: 500px;
