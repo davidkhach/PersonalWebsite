@@ -60,7 +60,7 @@ html{
   height: 100px;
   background: rgba(0,0,0, 0.5);
   font-family: 'Work Sans', sans-serif;
-  margin-top: 1050px;
+  margin-top: 1350px;
   margin-left: 50px;
 }
 
@@ -86,13 +86,13 @@ html{
 }
 
 .proj-content{
-  width: 1500px;
-  height: 800px;
+  width: 1000px;
+  height: 1100px;
   background: rgba(0,0,0, 0.5);
   margin: 0 auto;
   padding: 30px;
   margin-top: 70px;
-  margin-left: 100px;
+  margin-left: 400px;
   font-size: 28px;
   line-height: 2.5;
   color: white;
