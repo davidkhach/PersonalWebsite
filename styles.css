@@ -64,7 +64,25 @@ html{
   margin-left: 50px;
 }
 
+
 .proj-title2 h2{
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  padding: 30px;
+
+}
+
+.proj-title3{
+  width: 500px;
+  height: 100px;
+  background: rgba(0,0,0, 0.5);
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 450px;
+  margin-left: 50px;
+}
+
+.proj-title3 h2{
   text-align: center;
   font-size: 35px;
   color: white;
@@ -97,6 +115,34 @@ html{
   line-height: 2.5;
   color: white;
 }
+
+.proj-content2{
+  width: 1000px;
+  height: 200px;
+  background: rgba(0,0,0, 0.5);
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 70px;
+  margin-left: 350px;
+  font-size: 28px;
+  line-height: 2.5;
+  color: white;
+}
+
+.proj-content3{
+  width: 1000px;
+  height: 500px;
+  background: rgba(0,0,0, 0.5);
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 70px;
+  margin-left: 350px;
+  font-size: 28px;
+  line-height: 2.5;
+  color: white;
+}
+
+
 
 .box{
   width: 600px;
