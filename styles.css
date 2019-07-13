@@ -137,6 +137,7 @@ html{
   padding: 30px;
   margin-top: 70px;
   margin-left: 350px;
+  margin-bottom:100px;
   font-size: 28px;
   line-height: 2.5;
   color: white;
@@ -169,6 +170,7 @@ html{
   color: white;
   margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 100px;
   text-align: center;
 
 }
@@ -209,13 +211,27 @@ html{
 }
 
 .tech-content{
-  width: 1000px;
-  height: 500px;
+  width: 700px;
+  height: 220px;
   background: rgba(0,0,0, 0.5);
   margin: 0 auto;
   padding: 30px;
   margin-top: 70px;
+  margin-bottom: 100px;
 
+}
+
+.tech-text{
+  font-size: 28px;
+  line-height: 2.5;
+  color: white;
+
+
+}
+.tech-text li{
+    float: left;
+    margin-bottom: 10px;
+    padding-right: 70px;
 }
 
 .box h1{
