@@ -26,13 +26,14 @@ html{
 
 .exp-content{
   width: 1000px;
-  height: 500px;
+  height: 640px;
   background: rgba(0,0,0, 0.5);
   margin: 0 auto;
   padding: 30px;
   margin-top: 70px;
 }
 .exp-text{
+  font-family: 'Work Sans', sans-serif;
   font-size: 28px;
   line-height: 2.5;
   color: white;
@@ -222,6 +223,7 @@ html{
 }
 
 .tech-text{
+  font-family: 'Work Sans', sans-serif;
   font-size: 28px;
   line-height: 2.5;
   color: white;
