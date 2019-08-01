@@ -1,0 +1,93 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+}
+
+.navbar{
+  background-color: #23415C;
+  padding: 1% 0;
+  font-size: 22px;
+
+}
+
+.navbar-default .navbar-nav li a{
+  color: #D5D5D5;
+}
+
+.navbar-default .navbar-nav li a:hover .navbar-default .navbar-nav li a.active {
+  color: #FFFFFF;
+}
+
+#home{
+  background: url(images/background1.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1{
+  color: #ffffff;
+  font-size: 500%;
+  font-weight: 700;
+}
+
+.landing-text h3{
+  color: #f2f2f2;
+  font-weight: 700;
+}
+
+#fixed {
+  background: url(images/background2.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.inner-title{
+  text-align: center;
+  vertical-align: middle;
+  background-color: grey;
+
+
+}
+
+.inner-title h2{
+  color: #ffffff;
+  font-size: 400%;
+  font-weight: 700;
+
+}
+
+.inner-title p{
+  color: #ffffff;
+  font-size: 200%;
+  font-weight: 400;
+  line-height: 200%;
+  padding-top: 20px;
+
+
+}
+
+@media (max-width: 768px){
+  .landing-text h1{
+    font-size: 300%
+  }
+  .inner-title h2{
+    font-size: 300%;
+  }
+  .inner-title p{
+    font-size: 150%;
+  }
+}
