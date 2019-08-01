@@ -1,11 +1,11 @@
 html, body{
   height: 100%;
   width: 100%;
-  background-color: grey;
+  background-color: #283b69;
 }
 
 .navbar{
-  background-color: #23415C;
+  background-color: #283b69;
   padding: 1% 0;
   font-size: 22px;
 
@@ -58,7 +58,7 @@ html, body{
 .inner-title{
   text-align: center;
   vertical-align: middle;
-  background-color: grey;
+  border: 2px solid white;
 
 
 }
