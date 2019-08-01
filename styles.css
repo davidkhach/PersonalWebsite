@@ -20,7 +20,7 @@ html, body{
 }
 
 #home{
-  background: url(images/background1.jpg) no-repeat center center fixed;
+  background: url(images/background1.jpg) no-repeat center center;
   display: table;
   height: 100%;
   position: relative;
