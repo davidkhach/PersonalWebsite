@@ -26,6 +26,5 @@ jQuery(document).ready(function() {
         scroll_to($(this), $('nav').outerHeight());
     });
 
-    // ...
 
 });
