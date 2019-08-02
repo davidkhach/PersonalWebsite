@@ -49,11 +49,12 @@ html, body{
 #fixed {
   background: url(images/background2.jpg) no-repeat center center;
   display: table;
-  height: 60%;
+  height: 50%;
   position: relative;
   width: 100%;
   background-size: cover;
 }
+
 
 .inner-title{
   text-align: center;
@@ -70,6 +71,16 @@ html, body{
 
 }
 
+.inner-title h3{
+  color: #ffffff;
+  font-size: 300%;
+  font-weight: 700;
+  border: 1px solid white;
+  padding: 10px;
+  display: inline;
+
+}
+
 .inner-title p{
   color: #ffffff;
   font-size: 200%;
@@ -80,14 +91,37 @@ html, body{
 
 }
 
+hr{
+   display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px dashed #ccc;
+   margin: 1em 0;
+   padding: 0;
+}
+.inner-title li{
+  color: #ffffff;
+  font-size: 200%;
+  font-weight: 400;
+  line-height: 200%;
+  padding-top: 20px;
+
+}
 @media (max-width: 768px){
+
   .landing-text h1{
     font-size: 300%
   }
   .inner-title h2{
     font-size: 300%;
   }
+  .inner-title h3{
+    font-size: 250%;
+  }
   .inner-title p{
+    font-size: 150%;
+  }
+  .inner-title li{
     font-size: 150%;
   }
 }
