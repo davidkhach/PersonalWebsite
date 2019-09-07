@@ -130,6 +130,17 @@ hr{
   padding-top: 20px;
 
 }
+
+.clickable h2{
+  color: #ffffff;
+  font-size: 200%;
+  font-weight: 400;
+  line-height: 200%;
+  padding-top: 20px;
+}
+.clickable h2:hover{
+  color: black;
+}
 @media (max-width: 768px){
 
   .landing-text h1{
