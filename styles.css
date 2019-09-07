@@ -158,4 +158,7 @@ hr{
   .inner-title li{
     font-size: 150%;
   }
+  .clickable h2{
+    font-size: 150%;
+  }
 }
